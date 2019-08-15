@@ -1,0 +1,78 @@
+# azure_devops_sdk.model.LegacyTestRun
+
+## Load the model package
+```dart
+import 'package:azure_devops_sdk/api.dart';
+```
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bugsCount** | **int** |  | [optional] [default to null]
+**buildConfigurationId** | **int** |  | [optional] [default to null]
+**buildFlavor** | **String** |  | [optional] [default to null]
+**buildNumber** | **String** |  | [optional] [default to null]
+**buildPlatform** | **String** |  | [optional] [default to null]
+**buildReference** | [**LegacyBuildConfiguration**](LegacyBuildConfiguration.md) |  | [optional] [default to null]
+**buildUri** | **String** |  | [optional] [default to null]
+**comment** | **String** |  | [optional] [default to null]
+**completeDate** | [**DateTime**](DateTime.md) |  | [optional] [default to null]
+**configurationIds** | **List&lt;int&gt;** |  | [optional] [default to []]
+**controller** | **String** |  | [optional] [default to null]
+**creationDate** | [**DateTime**](DateTime.md) |  | [optional] [default to null]
+**csmContent** | **String** |  | [optional] [default to null]
+**csmParameters** | **String** |  | [optional] [default to null]
+**customFields** | [**List&lt;TestExtensionField&gt;**](TestExtensionField.md) |  | [optional] [default to []]
+**dropLocation** | **String** |  | [optional] [default to null]
+**dtlAutEnvironment** | [**ShallowReference**](ShallowReference.md) |  | [optional] [default to null]
+**dtlTestEnvironment** | [**ShallowReference**](ShallowReference.md) |  | [optional] [default to null]
+**dueDate** | [**DateTime**](DateTime.md) |  | [optional] [default to null]
+**errorMessage** | **String** |  | [optional] [default to null]
+**filter** | [**RunFilter**](RunFilter.md) |  | [optional] [default to null]
+**incompleteTests** | **int** |  | [optional] [default to null]
+**isAutomated** | **bool** |  | [optional] [default to null]
+**isBvt** | **bool** |  | [optional] [default to null]
+**iteration** | **String** |  | [optional] [default to null]
+**iterationId** | **int** |  | [optional] [default to null]
+**lastUpdated** | [**DateTime**](DateTime.md) |  | [optional] [default to null]
+**lastUpdatedBy** | **String** |  | [optional] [default to null]
+**lastUpdatedByName** | **String** |  | [optional] [default to null]
+**legacySharePath** | **String** |  | [optional] [default to null]
+**notApplicableTests** | **int** |  | [optional] [default to null]
+**owner** | **String** |  | [optional] [default to null]
+**ownerName** | **String** |  | [optional] [default to null]
+**passedTests** | **int** |  | [optional] [default to null]
+**postProcessState** | **String** |  | [optional] [default to null]
+**publicTestSettingsId** | **int** |  | [optional] [default to null]
+**releaseEnvironmentUri** | **String** |  | [optional] [default to null]
+**releaseReference** | [**LegacyReleaseReference**](LegacyReleaseReference.md) |  | [optional] [default to null]
+**releaseUri** | **String** |  | [optional] [default to null]
+**revision** | **int** |  | [optional] [default to null]
+**rowVersion** | **List&lt;String&gt;** |  | [optional] [default to []]
+**runHasDtlEnvironment** | **bool** |  | [optional] [default to null]
+**runTimeout** | **String** |  | [optional] [default to null]
+**serviceVersion** | **String** |  | [optional] [default to null]
+**sourceWorkflow** | **String** |  | [optional] [default to null]
+**startDate** | [**DateTime**](DateTime.md) |  | [optional] [default to null]
+**state** | **String** |  | [optional] [default to null]
+**subscriptionName** | **String** |  | [optional] [default to null]
+**substate** | **String** |  | [optional] [default to null]
+**teamProject** | **String** |  | [optional] [default to null]
+**teamProjectUri** | **String** |  | [optional] [default to null]
+**testConfigurationsMapping** | **String** |  | [optional] [default to null]
+**testEnvironmentId** | **String** |  | [optional] [default to null]
+**testMessageLogEntries** | [**List&lt;TestMessageLogDetails&gt;**](TestMessageLogDetails.md) |  | [optional] [default to []]
+**testMessageLogId** | **int** |  | [optional] [default to null]
+**testPlanId** | **int** |  | [optional] [default to null]
+**testRunId** | **int** |  | [optional] [default to null]
+**testRunStatistics** | [**List&lt;LegacyTestRunStatistic&gt;**](LegacyTestRunStatistic.md) |  | [optional] [default to []]
+**testSettingsId** | **int** |  | [optional] [default to null]
+**title** | **String** |  | [optional] [default to null]
+**totalTests** | **int** |  | [optional] [default to null]
+**type** | **String** |  | [optional] [default to null]
+**unanalyzedTests** | **int** |  | [optional] [default to null]
+**version** | **int** |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
